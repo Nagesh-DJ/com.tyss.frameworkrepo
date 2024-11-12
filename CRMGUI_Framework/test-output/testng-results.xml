@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="16" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-07T07:55:02Z" name="Suite" finished-at="2024-11-07T07:55:56Z" duration-ms="53906">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateContactTest.CreateContactTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" name="CreateContactTest" class="testNG.com.crm.contactTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.CreateOrTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" name="CreateOrTest" class="testNG.com.crm.orgTest.CreateOrganizationTest"/>
+        <method signature="CreateContactTest.CreateContactTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" name="CreateContactTest" class="testNG.com.crm.contactTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.CreateOrTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" name="CreateOrTest" class="testNG.com.crm.orgTest.CreateOrganizationTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateContactTest.createContactWithOrgTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" name="createContactWithOrgTest" class="testNG.com.crm.contactTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithSupportDateTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" name="createContactWithSupportDateTest" class="testNG.com.crm.contactTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.createOrgWithIndustriesTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" name="createOrgWithIndustriesTest" class="testNG.com.crm.orgTest.CreateOrganizationTest"/>
+        <method signature="CreateOrganizationTest.createOrgWithPhoneNumberTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" name="createOrgWithPhoneNumberTest" class="testNG.com.crm.orgTest.CreateOrganizationTest"/>
+        <method signature="CreateContactTest.createContactWithOrgTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" name="createContactWithOrgTest" class="testNG.com.crm.contactTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithSupportDateTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" name="createContactWithSupportDateTest" class="testNG.com.crm.contactTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.createOrgWithIndustriesTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" name="createOrgWithIndustriesTest" class="testNG.com.crm.orgTest.CreateOrganizationTest"/>
+        <method signature="CreateOrganizationTest.createOrgWithPhoneNumberTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" name="createOrgWithPhoneNumberTest" class="testNG.com.crm.orgTest.CreateOrganizationTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-11-07T07:55:02Z" name="TestRunner-1" finished-at="2024-11-07T07:55:49Z" duration-ms="46599">
+      <class name="testNG.com.crm.orgTest.CreateOrganizationTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:02Z" name="configBC" finished-at="2024-11-07T07:55:04Z" duration-ms="1671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:04Z" name="configBM" finished-at="2024-11-07T07:55:08Z" duration-ms="3995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:08Z" name="CreateOrTest" finished-at="2024-11-07T07:55:08Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:08Z" name="configAM" finished-at="2024-11-07T07:55:11Z" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:11Z" name="configBM" finished-at="2024-11-07T07:55:14Z" duration-ms="2863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithIndustriesTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:14Z" name="createOrgWithIndustriesTest" finished-at="2024-11-07T07:55:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustriesTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:14Z" name="configAM" finished-at="2024-11-07T07:55:17Z" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:17Z" name="configBM" finished-at="2024-11-07T07:55:19Z" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithPhoneNumberTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:19Z" name="createOrgWithPhoneNumberTest" finished-at="2024-11-07T07:55:19Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhoneNumberTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:19Z" name="configAM" finished-at="2024-11-07T07:55:22Z" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@2235eaab]" started-at="2024-11-07T07:55:22Z" name="configAC" finished-at="2024-11-07T07:55:23Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- testNG.com.crm.orgTest.CreateOrganizationTest -->
+      <class name="testNG.com.crm.contactTest.CreateContactTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:23Z" name="configBC" finished-at="2024-11-07T07:55:24Z" duration-ms="1439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:24Z" name="configBM" finished-at="2024-11-07T07:55:27Z" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:27Z" name="CreateContactTest" finished-at="2024-11-07T07:55:36Z" duration-ms="8753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:36Z" name="configAM" finished-at="2024-11-07T07:55:37Z" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:37Z" name="configBM" finished-at="2024-11-07T07:55:40Z" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:40Z" name="createContactWithOrgTest" finished-at="2024-11-07T07:55:40Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:40Z" name="configAM" finished-at="2024-11-07T07:55:43Z" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:43Z" name="configBM" finished-at="2024-11-07T07:55:45Z" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithSupportDateTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:45Z" name="createContactWithSupportDateTest" finished-at="2024-11-07T07:55:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDateTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:45Z" name="configAM" finished-at="2024-11-07T07:55:48Z" duration-ms="3145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@17503f6b]" started-at="2024-11-07T07:55:48Z" name="configAC" finished-at="2024-11-07T07:55:49Z" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- testNG.com.crm.contactTest.CreateContactTest -->
+    </test> <!-- TestRunner-1 -->
+    <test started-at="2024-11-07T07:55:02Z" name="TestRunner-2" finished-at="2024-11-07T07:55:56Z" duration-ms="53906">
+      <class name="testNG.com.crm.orgTest.CreateOrganizationTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:02Z" name="configBS" finished-at="2024-11-07T07:55:02Z" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:02Z" name="configBC" finished-at="2024-11-07T07:55:06Z" duration-ms="4215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:06Z" name="configBM" finished-at="2024-11-07T07:55:10Z" duration-ms="3541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:10Z" name="CreateOrTest" finished-at="2024-11-07T07:55:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:10Z" name="configAM" finished-at="2024-11-07T07:55:13Z" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:13Z" name="configBM" finished-at="2024-11-07T07:55:16Z" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithIndustriesTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:16Z" name="createOrgWithIndustriesTest" finished-at="2024-11-07T07:55:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustriesTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:16Z" name="configAM" finished-at="2024-11-07T07:55:19Z" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:19Z" name="configBM" finished-at="2024-11-07T07:55:22Z" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithPhoneNumberTest()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:22Z" name="createOrgWithPhoneNumberTest" finished-at="2024-11-07T07:55:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhoneNumberTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:22Z" name="configAM" finished-at="2024-11-07T07:55:25Z" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:25Z" name="configAC" finished-at="2024-11-07T07:55:28Z" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:testNG.com.crm.orgTest.CreateOrganizationTest@41488b16]" started-at="2024-11-07T07:55:56Z" name="configAS" finished-at="2024-11-07T07:55:56Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- testNG.com.crm.orgTest.CreateOrganizationTest -->
+      <class name="testNG.com.crm.contactTest.CreateContactTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:28Z" name="configBC" finished-at="2024-11-07T07:55:32Z" duration-ms="3511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:32Z" name="configBM" finished-at="2024-11-07T07:55:35Z" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:35Z" name="CreateContactTest" finished-at="2024-11-07T07:55:43Z" duration-ms="8529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:43Z" name="configAM" finished-at="2024-11-07T07:55:45Z" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:45Z" name="configBM" finished-at="2024-11-07T07:55:48Z" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:48Z" name="createContactWithOrgTest" finished-at="2024-11-07T07:55:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:48Z" name="configAM" finished-at="2024-11-07T07:55:50Z" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:50Z" name="configBM" finished-at="2024-11-07T07:55:52Z" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithSupportDateTest()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:52Z" name="createContactWithSupportDateTest" finished-at="2024-11-07T07:55:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDateTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:52Z" name="configAM" finished-at="2024-11-07T07:55:54Z" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:testNG.com.crm.contactTest.CreateContactTest@a8ef162]" started-at="2024-11-07T07:55:54Z" name="configAC" finished-at="2024-11-07T07:55:56Z" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- testNG.com.crm.contactTest.CreateContactTest -->
+    </test> <!-- TestRunner-2 -->
+  </suite> <!-- Suite -->
+</testng-results>
