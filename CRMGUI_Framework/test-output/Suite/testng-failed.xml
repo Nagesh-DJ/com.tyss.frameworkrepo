@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestRunner-2(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="testNG.com.crm.orgTest.CreateOrganizationTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="createOrgWithIndustriesTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="createOrgWithPhoneNumberTest"/>
+        </methods>
+      </class> <!-- testNG.com.crm.orgTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- TestRunner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
